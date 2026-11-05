@@ -1,0 +1,71 @@
+{
+  "raw_data_included": false,
+  "individual_predictions_included": false,
+  "origin": "completed single-device research experiments",
+  "artifacts": [
+    {
+      "artifact": "independent_forecast_summary.csv",
+      "source_experiment": "independent_final",
+      "source_sha256": "842c5be4a7e00ce1ef17f34e0351822edbaa47f3451eaed9b555f80e74a2673b"
+    },
+    {
+      "artifact": "independent_fold_metrics.csv",
+      "source_experiment": "independent_final",
+      "source_sha256": "bb4666f05f8d48e2bc3be82c80410eec052372fa4834e53eb8626e9b82d88188"
+    },
+    {
+      "artifact": "independent_horizon_metrics.csv",
+      "source_experiment": "independent_final",
+      "source_sha256": "8c8118a41ad057ce5ae9cf50e574810f150e59ee48b8485bb11f7e249efa4d8e"
+    },
+    {
+      "artifact": "independent_uncertainty.csv",
+      "source_experiment": "independent_final",
+      "source_sha256": "4de83c8a24d9c27d0aa727bc23c8cd27e00625b3ddac761ce994eb816e257624"
+    },
+    {
+      "artifact": "independent_rul_summary.csv",
+      "source_experiment": "independent_final",
+      "source_sha256": "87e824a50544ab0f79e98a2b1f18876e7f39ac9ba2ed6d8788ba6cdf0703ee33"
+    },
+    {
+      "artifact": "matched_sensor_summary.csv",
+      "source_experiment": "independent_final",
+      "source_sha256": "caedfe9885e41f79a63f7e76944d09527232fdcaa2374073a7bb900fadf7028f"
+    },
+    {
+      "artifact": "original_rc_comparison.csv",
+      "source_experiment": "original_rc",
+      "source_sha256": "ada827eb12f18b47342c339fbc64cdfcce5f81c151c233a24c3ff77c1fc8fdb3"
+    },
+    {
+      "artifact": "dual_loss_comparison.csv",
+      "source_experiment": "dual_loss",
+      "source_sha256": "aef7ec2302c0eaf3ac473c07e78dca454797e05fe21b96a57918bd116e5c314e"
+    },
+    {
+      "artifact": "docs/assets/independent_forecast_accuracy.png",
+      "source_sha256": "c15c1517ff3b288bb24550873e17eda4cf32debecbaad30735736b5ffcc55604"
+    },
+    {
+      "artifact": "docs/assets/independent_uncertainty.png",
+      "source_sha256": "a3e98250a3e29e7985685d9a3a060c9cdf78d56c3dba381396f3c7010e490bbc"
+    },
+    {
+      "artifact": "docs/assets/independent_rul_accuracy.png",
+      "source_sha256": "801b27d03b6fd6e17a67dbdd283fa6c8fdab4601c4b50bdbeb1ed0197ccd7f97"
+    },
+    {
+      "artifact": "docs/assets/standard_vs_rc_trajectories.png",
+      "source_sha256": "8e8f67f99e7fa67bedd4cfba10e9600c9b27a6ac4a4d1e488ef21c32f18700d1"
+    },
+    {
+      "artifact": "docs/assets/sensor_disagreement.png",
+      "source_sha256": "1c82c29920b19de35b05cc216633d5603b2bbe7bb744ba9f51bf6244441e54ae"
+    },
+    {
+      "artifact": "docs/assets/piecewise_stages.png",
+      "source_sha256": "0f7a07f26ed58b178b3bf6b8bae54d97011898738305d40c64281a0def278334"
+    }
+  ]
+}

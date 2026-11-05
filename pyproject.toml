@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "capacitor-rul"
+version = "0.1.0"
+description = "Auditable capacitor degradation forecasts and conditional remaining-life estimates"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Harshvardhan Wagare"}]
+dependencies = ["numpy>=1.26,<3", "pandas>=2.2,<4", "matplotlib>=3.8,<4", "torch>=2.2,<3"]
+
+[project.scripts]
+capacitor-rul = "capacitor_rul.cli:main"
+
+[project.urls]
+Repository = "https://github.com/Codeharshw/capacitor-rul"
+
+[tool.setuptools.packages.find]
+where = ["src"]

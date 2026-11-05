@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If this code or case study helps your work, please cite this repository."
+title: "Capacitor RUL: Bayesian forecasting with honest baselines"
+type: software
+authors:
+  - family-names: Wagare
+    given-names: Harshvardhan
+version: 0.1.0
+date-released: 2026-11-05
+url: "https://github.com/Codeharshw/capacitor-rul"
+license: MIT

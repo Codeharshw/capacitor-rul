@@ -1,0 +1,27 @@
+{
+  "cutoffs": [
+    35000,
+    50000,
+    65000
+  ],
+  "horizons": [
+    1000,
+    5000
+  ],
+  "test_block": 5000,
+  "reference_capacitance_uf": {
+    "LCR": 600.0,
+    "calculated": 950.0
+  },
+  "eol_fraction": 0.8,
+  "models": [
+    "plain",
+    "stage"
+  ],
+  "seeds": [
+    42
+  ],
+  "max_epochs": 4,
+  "mc_samples": 20,
+  "rul_draws": 500
+}
